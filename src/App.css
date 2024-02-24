@@ -1,0 +1,62 @@
+.App_Main {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.App_Nav_Bar {
+  color: white;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 20%;
+  margin-top: 100px;
+  max-width: 600px;
+}
+.App_Nav_Bar_Text {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 19px;
+}
+.App_Nav_Bar_Text:hover {
+  background-color: rgb(0, 109, 103) ;
+}
+.App_Main_Contact_Box {
+  display: flex;
+  margin-top: 100px;
+}
+.App_Main_Contact_Svg {
+  width: 50px;
+  color: white;
+  margin-right: 10px;
+}
+.App_Nav_Bar_Language_Button {
+  margin-top: 100px;
+  background-color: rgb(0, 100, 95);
+  color: white;
+  font-size: 19px;
+  cursor: pointer;
+  transition: all .3s ease;
+  padding: 5px;
+}
+.App_Nav_Bar_Language_Button:hover {
+  opacity: 0.5;
+}
+.App_Main_Content {
+  width: 50%;
+  max-width: 1500px;
+/* background-color: chartreuse; */
+  color: white;
+  overflow-y: scroll;
+  height: 100vh;
+  /* Scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #364d4a rgba(224, 224, 224, 0.123);
+}
+
+.App_Final_Text {
+ margin-top: 100px;
+ text-align: right;
+}
