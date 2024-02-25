@@ -7,7 +7,8 @@
 .Project_Template_Image_Box {
     position: relative;
     display: flex;
-    height: 300px;
+    max-height: 300%;
+    max-width: 1000px;
 }
 .Project_Template_Image_Text {
     margin-top: 0;
@@ -29,7 +30,8 @@
 
 }
 .Project_Template_Image {
-    height: 100%;
+    height: auto;
+    max-width: 95%;
 }
 .Project_Template_Description_Box {
     display: flex;
@@ -57,3 +59,15 @@
 .Project_Template_Text {
     margin-left: 20px;
 }
+
+@media only screen and (max-width: 1023px) {
+    .Project_Template_Image_Box {
+        position: relative;
+        display: flex;
+        height: auto;
+    }
+    .Project_Template_Image {
+        height: auto;
+        max-width: 100%;
+    }
+  }

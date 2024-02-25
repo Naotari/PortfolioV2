@@ -47,7 +47,7 @@ const ProjectsInfo = {
         content: "This is a basic calculator created to practice basic concepts in javascript.",
         link: "https://calculator-naotari.vercel.app/",
         githubLink: "https://github.com/Naotari/calculator",
-        imagen: "https://res.cloudinary.com/dyiymsxec/image/upload/v1695327335/Portfolio/Projects/Calculator.png",
+        imagen: "https://res.cloudinary.com/dyiymsxec/image/upload/v1708817535/Portfolio/Projects/Calculator.png",
     },
     project5: {
         id:"Project5",

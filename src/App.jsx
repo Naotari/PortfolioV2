@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='App_Main'>
       <div className='App_Nav_Bar'>
-        <h1>Frandel Rodriguez</h1>
+        <h1 className='App_Nav_Bar_Tittle'>Frandel Rodriguez</h1>
         <h2>{language === "es" ? "Desarrollador web": "Web developer"}</h2>
         <a href='#About' className='App_Nav_Bar_Text'>{language === "es" ? "Acerca de mi": "About me"}</a>
         <a href='#Skills' className='App_Nav_Bar_Text'>{language === "es" ? "Habilidades": "Skills"}</a>
@@ -45,8 +45,8 @@ function App() {
         <p className='App_Final_Text'>
           {
             language === "es" ?
-            "Esta pagina fue desarrollada en vite.js":
-            "This webpage was developed in vite.js"
+            "Esta pagina fue desarrollada en vite.js y desplegada en vercel.":
+            "This webpage was developed in vite.js and deployed on vercel."
           }
         </p>
       </div>

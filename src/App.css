@@ -13,6 +13,10 @@
   margin-top: 100px;
   max-width: 600px;
 }
+.App_Nav_Bar_Tittle{
+  font-size: 45px;
+  margin: 0;
+}
 .App_Nav_Bar_Text {
   text-decoration: none;
   color: white;
@@ -59,4 +63,44 @@
 .App_Final_Text {
  margin-top: 100px;
  text-align: right;
+}
+
+
+@media only screen and (max-width: 1366px) {
+  .App_Nav_Bar {
+    width: 30%;
+  }
+  .App_Main_Content {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .App_Main {
+    display: flex;
+    flex-direction: column;
+  }
+  .App_Nav_Bar {
+    /* background-color: aqua; */
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .App_Nav_Bar_Text {
+    display: none;
+  }
+  .App_Main_Contact_Box {
+    display: flex;
+    margin-top: 10px;
+  }
+  .App_Nav_Bar_Language_Button {
+    margin-top: 20px;
+  }
+  .App_Main_Content {
+    margin: 0 3% 0 3%;
+    width: 94%;
+    max-width: 100%;
+    color: white;
+    overflow-y: hidden;
+    height: auto;
+  }
 }
