@@ -22,6 +22,8 @@ function App() {
         <h2>{language === "es" ? "Desarrollador web": "Web developer"}</h2>
         <a href='#About' className='App_Nav_Bar_Text'>{language === "es" ? "Acerca de mi": "About me"}</a>
         <a href='#Skills' className='App_Nav_Bar_Text'>{language === "es" ? "Habilidades": "Skills"}</a>
+        <a href='#Project6' className='App_Nav_Bar_Text'>{language === "es" ? "Proyecto 6": "Project 6"}</a>
+        <a href='#Project5' className='App_Nav_Bar_Text'>{language === "es" ? "Proyecto 5": "Project 5"}</a>
         <a href='#Project4' className='App_Nav_Bar_Text'>{language === "es" ? "Proyecto 4": "Project 4"}</a>
         <a href='#Project3' className='App_Nav_Bar_Text'>{language === "es" ? "Proyecto 3": "Project 3"}</a>
         <a href='#Project2' className='App_Nav_Bar_Text'>{language === "es" ? "Proyecto 2": "Project 2"}</a>

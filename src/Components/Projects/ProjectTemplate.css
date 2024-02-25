@@ -49,6 +49,10 @@
     border-radius: 50px;
     height: 80px;
     padding-left: 5px;
+    transition: all 0.3s ease;
+}
+.Project_Template_Box_GitHub:hover {
+    background-color: rgb(192, 192, 192);
 }
 .Project_Template_Image_GitHub {
     height: 100%;
